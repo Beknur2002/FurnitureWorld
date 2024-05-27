@@ -32,9 +32,9 @@ const Product = () => {
   const [activeColorIndex, setActiveColorIndex] = React.useState(0);
 
   const handlePress = async (link) => {
-    let result = await WebBrowser.openBrowserAsync(link);
+    // let result = await WebBrowser.openBrowserAsync(link);
 
-    // await Linking.openURL(link);
+    await Linking.openURL(link);
   };
 
   return (

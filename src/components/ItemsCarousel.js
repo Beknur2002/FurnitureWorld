@@ -67,6 +67,15 @@ const items = [
     isLiked: true,
     link: "https://ar.elarbis.com/kelud/talango_32.html",
   },
+  {
+    name: "Свой диван",
+    price: 500.99,
+    image: require("../../assets/aaa.png"),
+    color: "#FEF5EE",
+    isNew: false,
+    isLiked: true,
+    link: "https://storage.cloud.google.com/example1_beka/Koltuk.usdz",
+  },
 ];
 
 const ItemsCarousel = () => {
